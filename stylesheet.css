@@ -1,0 +1,40 @@
+li {
+    list-style-type: none;
+}
+
+.sidebar {
+    text-align: right;
+    width: 200px;
+    color: #757980;
+    line-height: 1.4;
+    display: inline-block;
+    vertical-align: top;
+}
+
+a {
+    color: #757980;
+    text-decoration: none;
+}
+
+.sidebar li {
+    font-weight: normal;
+}
+
+.sidebar > ul > li {
+    font-weight: bold;
+}
+
+.info {
+    margin-top: 5%;
+}
+
+.content {
+    display: inline-block;
+    width: 40%;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.content iframe {
+    margin-bottom: 2%;
+}
