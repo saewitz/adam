@@ -1,5 +1,5 @@
 * {
-    font-family: Poppins;
+    font-family: Verdana;
 }
 
 li {
@@ -8,7 +8,7 @@ li {
 
 .sidebar {
     text-align: right;
-    width: 220px;
+    width: 280px;
     color: #757980;
     display: inline-block;
     vertical-align: top;
@@ -33,7 +33,7 @@ li {
 }
 
 .sidebar > ul > li > ul > li {
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .info {
@@ -45,32 +45,4 @@ li {
     width: 50%;
     margin-top: 5%;
     margin-left: 5%;
-}
-
-.content iframe {
-    margin-bottom: 2%;
-}
-
-@font-face {
-	font-family: "Poppins";
-	src: url("./fonts/Poppins/Poppins-Regular.ttf");
-}
-
-@font-face {
-	font-family: "Poppins";
-	src: url("./fonts/Poppins/Poppins-Bold.ttf");
-	font-weight: bold;
-}
-
-@font-face {
-	font-family: "Poppins";
-	src: url("./fonts/Poppins/Poppins-Italic.ttf");
-	font-style: italic;
-}
-
-@font-face {
-	font-family: "Poppins";
-	src: url("./fonts/Poppins/Poppins-BoldItalic.ttf");
-	font-weight: bold;
-	font-style: italic;
 }
