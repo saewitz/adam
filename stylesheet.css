@@ -8,7 +8,7 @@ li {
 
 .sidebar {
     text-align: right;
-    width: 280px;
+    width: 250px;
     color: #757980;
     display: inline-block;
     vertical-align: top;
@@ -27,22 +27,28 @@ li {
     font-weight: normal;
 }
 
+.sidebar h3 {
+    font-size: 16px;
+}
+
 .sidebar > ul > li {
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 14px;
+    font-size: 12px;
+    line-height: 17px;
 }
 
 .sidebar > ul > li > ul > li {
-    font-size: 14px;
+    font-size: 11px;
 }
 
 .info {
-    margin-top: 5%;
+    margin-top: 4%;
 }
 
 .content {
     display: inline-block;
     width: 50%;
     margin-top: 5%;
-    margin-left: 5%;
+    margin-left: 4%;
 }
